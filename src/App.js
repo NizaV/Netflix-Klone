@@ -6,10 +6,10 @@ import requests from './requests.js'
 function App() {
   return (
     <div className="App">
-      <h1>Hey NEEZ</h1>
-      {/* <Row title="NETFLIX ORIGINALS" fetchURL={requests.fetchNetflixOriginals}/> */}
+      <h1>Hello World</h1>
+      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}/>
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
-      {/* <Row title="Top Rated" fetchURL={requests.fetchTopRated}/> */}
+      <Row title="Top Rated" fetchUrl={requests.fetchTopRated}/>
     </div>
   );
 }

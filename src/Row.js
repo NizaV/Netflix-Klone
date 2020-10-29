@@ -3,12 +3,12 @@ import axios from './axios'
 
 function Row( {title, fetchUrl} ) {
     const [movies, setMovies] = useState([]);
-    const base_url = "hhtps://image.tmdb.org/t/p/original/";
+    const base_url = "hhtps://image.tmdb.org/t/p/original";
 
     useEffect(() => {
         // if [] are empty, run once when the row loads, and dont run again, basically only run once on load
         function fetchData() {
-            axios.get(fetchUrl)
+            axios.get(fetchUrl, { crossdomain: "true"})
             .then(response => setMovies(response.data.results));
         
         };
