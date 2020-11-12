@@ -4,6 +4,8 @@ import Row from './Row.js';
 import Nav from './Nav.js';
 import requests from './requests.js';
 import Banner from './Banner.js';
+import Footer from './Footer.js';
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,7 @@ function App() {
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies}/>
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries}/>
 
+      <Footer />
     </div>
   );
 }
