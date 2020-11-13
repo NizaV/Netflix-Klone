@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/NizaV/netflix-klone/src/gifs/netflix-logo.png" alt="Netflix Logo" width="369">
+  <img src="https://github.com/NizaV/netflix-klone/blob/master/src/gifs/netflix-logo.png" alt="Netflix Logo" width="200" height="200">
 </h1>
 
 <h4 align="center">A react application recreating the Netflix experience</h4>
