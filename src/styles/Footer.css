@@ -1,11 +1,10 @@
 .footer {
   width: 100%;
   padding: 20px;
-  height: 30px;
+  height: 40px;
   z-index: 1;
   text-align: center;
   background-color: black;
-  margin-top: 10px;
 
   transition-timing-function: ease-in;
   transition: all 0.5s;
@@ -22,4 +21,9 @@ a:hover {
 
 a:visited {
   color: red;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
 }
