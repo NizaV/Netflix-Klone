@@ -9,7 +9,7 @@
 
 A front-end react application integrated with an API :computer:. The API and Axios allows for access to a large selection of movies. The design of this app is detailed to enhance user-experience. It includes the ability to watch trailers! :raised_hands:
 
-## Check it out!
+## Check it out
 👉 https://netflix-klone-nv.web.app/ :rocket:
 
 # Demo
