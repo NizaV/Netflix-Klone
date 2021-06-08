@@ -7,7 +7,7 @@
 
 <h4 align="center">A react application recreating the Netflix experience</h4>
 
-A front-end react application integrated with an API :computer:. The API and Axios allows for access to a large selection of movies. The design of this app is detailed to enhance user-experience. It includes the ability to watch trailers :raised_hands:
+A front-end react application integrated with an API :computer:. The API and Axios allows for access to a large selection of movies. The design of this app is detailed to enhance user-experience. It includes the ability to watch trailers! :raised_hands:
 
 ## Check it out
 👉 https://netflix-klone-nv.web.app/ :rocket:
